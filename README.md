@@ -23,7 +23,7 @@ This is a complete full-stack Todo application that leverages React.js for the f
 ## Installation
 
 1. **clone the repo**
-2. **change value of apiUrl(variable in app.jsx) to either localhost:3000 or as per your ipv4 address**
+
 
 ```bash
 
