@@ -7,8 +7,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
-  const apiUrl = `192.168.1.200:3000`;
-  const [todo, SetTodo] = useState(null);
+  const apiUrl = `localhost:3000`;
+  const [todo, SetTodo] = useState([]);
 
   //toasts
   const notifyPost = () => toast("Added to the list");
